@@ -1,8 +1,7 @@
-print('Bem-vindo ao teste de números!!')
-print('')
+print('Bem-vindo ao teste de números!!\n')
 
 try:
-    numero = int(input('Digite um número de 1 a 7: '))
+    numero = int(input('Digite um número de 1 a 7:\n'))
 
     match numero:
         case 1:
